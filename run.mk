@@ -1,4 +1,4 @@
-project.exe : client.o customer_s.o employee_s.o
+bankingSystem.exe : client.o customer_s.o employee_s.o
 	gcc client.o customer_s.o employee_s.o -o project.exe
 
 client.o : client.c project_h.h
